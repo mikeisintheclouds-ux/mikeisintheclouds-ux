@@ -2,33 +2,23 @@
 
 **Software engineer building systems that stay up when it matters.**
 
-Multi-site operations, secure APIs, camera fleets, and automation that ships.
-
 ---
 
 ### Public projects
 
-| Repo | Stack | What it shows |
-|------|-------|----------------|
-| **[stream-sentinel](https://github.com/mikeisintheclouds-ux/stream-sentinel)** | TypeScript, Node, CLI | RTSP dual-stream health monitor + Frigate/go2rtc/MediaMTX config generator. Concurrent probes, monitoring exit codes. |
-| **[vault-api](https://github.com/mikeisintheclouds-ux/vault-api)** | TypeScript, Fastify, Zod | Secure secrets REST API: JWT, rate limits, AES-256-GCM, audit log, RBAC. |
-| **[ops-dashboard](https://github.com/mikeisintheclouds-ux/ops-dashboard)** | Next.js 15, React, TypeScript | Ops status board — services, camera fleet, incident timeline. Dark UI. Wires to the tools above. |
+| Repo | Stack | Signal |
+|------|-------|--------|
+| **[stream-sentinel](https://github.com/mikeisintheclouds-ux/stream-sentinel)** | TypeScript, CLI | RTSP dual-stream health + Frigate/go2rtc config |
+| **[vault-api](https://github.com/mikeisintheclouds-ux/vault-api)** | Fastify, Zod | JWT, rate limits, AES-GCM secrets, audit log |
+| **[ops-dashboard](https://github.com/mikeisintheclouds-ux/ops-dashboard)** | Next.js 15 | Ops status: services, fleet, incidents |
+| **[pulse-queue](https://github.com/mikeisintheclouds-ux/pulse-queue)** | TypeScript | Job queue: priority, backoff retries, dead-letter, workers |
 
-All three have CI (typecheck/build on push).
+All have CI. Depth over toy apps.
 
-### Focus areas
+### Focus
 
-- **Backend & APIs** — auth, encryption, validation, rate limiting, audit trails
-- **Systems / networking** — RTSP, dual-stream pipelines, fleet health
-- **Full-stack UI** — Next.js ops dashboards, real-time status patterns
-- **TypeScript** — strict mode, clean modules, CLI + library design
+Backend reliability · systems / networking · secure APIs · TypeScript
 
-### Stack
+**Open to software engineering roles** — backend, full-stack, platform.
 
-`TypeScript` · `Node.js` · `Fastify` · `Next.js` · `React` · `RTSP / ONVIF` · `GitHub Actions`
-
----
-
-Based in South Carolina. Building tools for real multi-location environments.
-
-**Open to software engineering roles** — backend, full-stack, platform, or security-adjacent systems.
+Based in South Carolina.
